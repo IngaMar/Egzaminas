@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/colorTint">
+
+    <TextView
+        android:id="@+id/vardas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vardas"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/metai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Metai:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/vardas"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ID :"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/metai"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/tipas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tipas :"
+        android:layout_below="@+id/vardas"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/telefonas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Savybės :"
+        android:layout_below="@id/tipas"
+        android:layout_margin="5dp" />
+</RelativeLayout>
